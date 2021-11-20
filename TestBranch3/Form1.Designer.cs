@@ -31,8 +31,8 @@ namespace TestBranch3
         {
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            //this.button3 = new System.Windows.Forms.Button();
+            //this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
