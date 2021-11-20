@@ -16,5 +16,11 @@ namespace TestBranch3
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form3 mForm3 = new Form3();
+            mForm3.ShowDialog();
+        }
     }
 }
