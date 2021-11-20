@@ -24,7 +24,7 @@ namespace TestBranch3
             label1.Text = str;
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
             Close();
         }
