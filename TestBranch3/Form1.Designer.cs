@@ -33,6 +33,7 @@ namespace TestBranch3
             this.label1 = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Button();
             this.btnLoadForm2 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -73,11 +74,23 @@ namespace TestBranch3
             this.btnLoadForm2.UseVisualStyleBackColor = true;
             this.btnLoadForm2.Click += new System.EventHandler(this.btnLoadForm2_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.ForeColor = System.Drawing.Color.Red;
+            this.label2.Location = new System.Drawing.Point(12, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(127, 26);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Test GitHub";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(384, 261);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btnLoadForm2);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.label1);
@@ -96,6 +109,7 @@ namespace TestBranch3
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnLoadForm2;
+        private System.Windows.Forms.Label label2;
     }
 }
 
