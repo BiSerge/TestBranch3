@@ -31,6 +31,8 @@ namespace TestBranch3
         {
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.btnLoadForm2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -51,11 +53,33 @@ namespace TestBranch3
             this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 1;
             // 
+            // btnClose
+            // 
+            this.btnClose.Location = new System.Drawing.Point(297, 224);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(75, 23);
+            this.btnClose.TabIndex = 2;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // btnLoadForm2
+            // 
+            this.btnLoadForm2.Location = new System.Drawing.Point(12, 224);
+            this.btnLoadForm2.Name = "btnLoadForm2";
+            this.btnLoadForm2.Size = new System.Drawing.Size(75, 23);
+            this.btnLoadForm2.TabIndex = 3;
+            this.btnLoadForm2.Text = "Load Form2";
+            this.btnLoadForm2.UseVisualStyleBackColor = true;
+            this.btnLoadForm2.Click += new System.EventHandler(this.btnLoadForm2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(384, 261);
+            this.Controls.Add(this.btnLoadForm2);
+            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
@@ -70,6 +94,8 @@ namespace TestBranch3
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.Button btnLoadForm2;
     }
 }
 

@@ -24,16 +24,16 @@ namespace TestBranch3
             label1.Text = str;
         }
 
-        //private void button3_Click(object sender, EventArgs e)
-        //{
-        //    Close();
-        //}
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
 
-        //private void button2_Click(object sender, EventArgs e)
-        //{
-        //    Form2 mForm2 = new Form2();
-        //    //mForm2.Show();
-        //    mForm2.ShowDialog();
-        //}
+        private void btnLoadForm2_Click(object sender, EventArgs e)
+        {
+            Form2 mForm2 = new Form2();
+            mForm2.ShowDialog();
+        }
+
     }
 }
